@@ -67,7 +67,7 @@ export const PROFILES: ProfileResult[] = [
       'Pode ser necessário ajustar expectativa de imóvel ou prazo',
     ],
     proximoPasso: 'O próximo passo recomendado é comparar cenários para entender qual combinação faz mais sentido para sua renda, entrada, urgência e objetivo.',
-    cta: 'Comparar meus caminhos possíveis',
+    cta: 'Receber orientação de um consultor especialista',
     ctaMensagem: 'Olá! Acabei de fazer o Diagnóstico de Compra Imobiliária Inteligente. Meu perfil foi: Estratégia Híbrida. Quero entender, com calma, qual seria o próximo passo mais adequado para minha realidade.',
   },
   {
