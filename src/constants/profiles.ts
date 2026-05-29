@@ -4,8 +4,10 @@ export const PROFILES: ProfileResult[] = [
   {
     id: 'financiamento',
     nome: 'Financiamento Imediato',
-    fraseIdentificacao: 'Seu diagnóstico indica compatibilidade inicial com uma análise de financiamento, especialmente se existe renda comprovável, entrada disponível e necessidade de comprar em curto prazo.',
-    explicacao: 'Este perfil aparece quando o cliente demonstra urgência maior, possível capacidade de comprovação de renda, alguma entrada disponível e interesse em resolver a compra com mais velocidade. Isso não significa aprovação garantida; significa que vale analisar essa possibilidade com mais profundidade.',
+    fraseIdentificacao:
+      'Seu diagnóstico indica compatibilidade inicial com uma análise de financiamento, especialmente se existe renda comprovável, entrada disponível e necessidade de comprar em curto prazo.',
+    explicacao:
+      'Este perfil aparece quando o cliente demonstra urgência maior, possível capacidade de comprovação de renda, alguma entrada disponível e interesse em resolver a compra com mais velocidade. Isso não significa aprovação garantida; significa que vale analisar essa possibilidade com mais profundidade.',
     pontosFavoraveis: [
       'Você demonstra maior urgência para comprar',
       'Pode ter renda comprovável',
@@ -20,15 +22,19 @@ export const PROFILES: ProfileResult[] = [
       'Aprovação depende da política do banco e da documentação',
       'Velocidade não deve substituir planejamento',
     ],
-    proximoPasso: 'O próximo passo recomendado é realizar uma análise de viabilidade com base em renda, entrada, valor do imóvel, documentação e prazo desejado.',
-    cta: 'Simular meu financiamento com orientação',
-    ctaMensagem: 'Olá! Acabei de fazer o Diagnóstico de Compra Imobiliária Inteligente. Meu perfil foi: Financiamento Imediato. Quero entender, com calma, qual seria o próximo passo mais adequado para minha realidade.',
+    proximoPasso:
+      'O próximo passo recomendado é realizar uma análise de viabilidade com base em renda, entrada, valor do imóvel, documentação e prazo desejado.',
+    cta: 'Quero validar minha capacidade de financiamento',
+    ctaMensagem:
+      'Olá! Acabei de fazer o Diagnóstico Imobiliário Inteligente. Meu perfil foi Financiamento Imediato e recebi uma estimativa inicial de parcela, entrada e limite pela renda. Quero validar com um especialista se esse cenário faz sentido para minha realidade antes de avançar.',
   },
   {
     id: 'consorcio',
     nome: 'Consórcio Planejado',
-    fraseIdentificacao: 'Seu diagnóstico indica compatibilidade inicial com uma estratégia de consórcio planejado, especialmente se você valoriza planejamento, disciplina e menor exposição a juros bancários.',
-    explicacao: 'Este perfil aparece quando o cliente não precisa necessariamente do imóvel de forma imediata, valoriza planejamento financeiro e demonstra interesse em evitar os juros tradicionais do financiamento. Consórcio precisa ser analisado com responsabilidade, sem promessa de contemplação rápida.',
+    fraseIdentificacao:
+      'Seu diagnóstico indica compatibilidade inicial com uma estratégia de consórcio planejado, especialmente se você valoriza planejamento, disciplina e menor exposição a juros bancários.',
+    explicacao:
+      'Este perfil aparece quando o cliente não precisa necessariamente do imóvel de forma imediata, valoriza planejamento financeiro e demonstra interesse em evitar os juros tradicionais do financiamento. Consórcio precisa ser analisado com responsabilidade, sem promessa de contemplação rápida.',
     pontosFavoraveis: [
       'Você pode esperar um pouco mais',
       'Demonstra preocupação com juros',
@@ -43,15 +49,19 @@ export const PROFILES: ProfileResult[] = [
       'A administradora precisa ser confiável',
       'O crédito deve estar alinhado ao valor real do imóvel desejado',
     ],
-    proximoPasso: 'O próximo passo recomendado é montar uma estratégia de consórcio com valor de crédito, parcela, prazo, possibilidade de lance e objetivo de compra.',
-    cta: 'Montar minha estratégia de consórcio',
-    ctaMensagem: 'Olá! Acabei de fazer o Diagnóstico de Compra Imobiliária Inteligente. Meu perfil foi: Consórcio Planejado. Quero entender, com calma, qual seria o próximo passo mais adequado para minha realidade.',
+    proximoPasso:
+      'O próximo passo recomendado é montar uma estratégia de consórcio com valor de crédito, parcela, prazo, possibilidade de lance e objetivo de compra.',
+    cta: 'Quero entender meu plano de consórcio',
+    ctaMensagem:
+      'Olá! Acabei de fazer o Diagnóstico Imobiliário Inteligente. Meu perfil foi Consórcio Planejado e recebi uma estimativa inicial de carta de crédito e parcela. Quero entender com um especialista qual plano de consórcio pode fazer mais sentido para meu objetivo, meu prazo e minha capacidade mensal.',
   },
   {
     id: 'hibrida',
     nome: 'Estratégia Híbrida',
-    fraseIdentificacao: 'Seu diagnóstico indica que talvez o melhor caminho não seja escolher apenas entre financiamento ou consórcio, mas comparar alternativas e combinar possibilidades.',
-    explicacao: 'Este perfil aparece quando o cliente tem uma realidade intermediária: pode ter parte da entrada, alguma urgência e alguma capacidade de pagamento, mas ainda precisa organizar melhor a rota. Pode fazer sentido comparar entrada, FGTS, financiamento, consórcio e prazo.',
+    fraseIdentificacao:
+      'Seu diagnóstico indica que talvez o melhor caminho não seja escolher apenas entre financiamento ou consórcio, mas comparar alternativas e combinar possibilidades.',
+    explicacao:
+      'Este perfil aparece quando o cliente tem uma realidade intermediária: pode ter parte da entrada, alguma urgência e alguma capacidade de pagamento, mas ainda precisa organizar melhor a rota. Pode fazer sentido comparar entrada, FGTS, financiamento, consórcio e prazo.',
     pontosFavoraveis: [
       'Você pode ter parte da entrada, mas ainda precisar ajustar a estratégia',
       'Pode estar entre comprar agora e planejar melhor',
@@ -66,15 +76,19 @@ export const PROFILES: ProfileResult[] = [
       'Não basta olhar apenas a parcela',
       'Pode ser necessário ajustar expectativa de imóvel ou prazo',
     ],
-    proximoPasso: 'O próximo passo recomendado é comparar cenários para entender qual combinação faz mais sentido para sua renda, entrada, urgência e objetivo.',
-    cta: 'Receber orientação de um consultor especialista',
-    ctaMensagem: 'Olá! Acabei de fazer o Diagnóstico de Compra Imobiliária Inteligente. Meu perfil foi: Estratégia Híbrida. Quero entender, com calma, qual seria o próximo passo mais adequado para minha realidade.',
+    proximoPasso:
+      'O próximo passo recomendado é comparar cenários para entender qual combinação faz mais sentido para sua renda, entrada, urgência e objetivo.',
+    cta: 'Quero comparar financiamento e consórcio',
+    ctaMensagem:
+      'Olá! Acabei de fazer o Diagnóstico Imobiliário Inteligente. Meu perfil foi Estratégia Híbrida e recebi uma estimativa inicial comparando financiamento e consórcio. Quero entender com um especialista qual caminho vale mais a pena para minha realidade: financiar, fazer consórcio, combinar estratégias ou ajustar meu plano.',
   },
   {
     id: 'reorganizacao',
     nome: 'Reorganização Financeira',
-    fraseIdentificacao: 'Seu diagnóstico indica que talvez o melhor passo agora seja preparar melhor sua estrutura financeira antes de assumir um compromisso imobiliário.',
-    explicacao: 'Este perfil aparece quando existem sinais de que o cliente deseja comprar, mas ainda pode não ter estrutura suficiente para avançar com segurança. Isso não significa desistir do imóvel; significa criar uma rota mais segura.',
+    fraseIdentificacao:
+      'Seu diagnóstico indica que talvez o melhor passo agora seja preparar melhor sua estrutura financeira antes de assumir um compromisso imobiliário.',
+    explicacao:
+      'Este perfil aparece quando existem sinais de que o cliente deseja comprar, mas ainda pode não ter estrutura suficiente para avançar com segurança. Isso não significa desistir do imóvel; significa criar uma rota mais segura.',
     pontosFavoraveis: [
       'Você já começou a buscar clareza sobre sua compra',
       'Pode ser possível construir uma rota de preparação',
@@ -89,15 +103,19 @@ export const PROFILES: ProfileResult[] = [
       'É preciso entender renda, dívidas, entrada e capacidade real',
       'A preparação pode ser mais importante que a velocidade',
     ],
-    proximoPasso: 'O próximo passo recomendado é montar um plano de preparação com faixa de imóvel possível, meta de entrada, organização de dívidas e capacidade mensal segura.',
-    cta: 'Criar meu plano de preparação para comprar',
-    ctaMensagem: 'Olá! Acabei de fazer o Diagnóstico de Compra Imobiliária Inteligente. Meu perfil foi: Reorganização Financeira. Quero entender, com calma, qual seria o próximo passo mais adequado para minha realidade.',
+    proximoPasso:
+      'O próximo passo recomendado é montar um plano de preparação com faixa de imóvel possível, meta de entrada, organização de dívidas e capacidade mensal segura.',
+    cta: 'Quero montar um plano para me preparar',
+    ctaMensagem:
+      'Olá! Acabei de fazer o Diagnóstico Imobiliário Inteligente. Meu perfil foi Reorganização Financeira e recebi uma estimativa inicial de compra. Quero entender com um especialista como posso me preparar melhor, organizar minha entrada, ajustar minha capacidade mensal e construir um caminho mais seguro para comprar.',
   },
   {
     id: 'investidor',
     nome: 'Investidor Patrimonial',
-    fraseIdentificacao: 'Seu diagnóstico indica uma visão mais patrimonial: o imóvel aparece não apenas como moradia, mas como parte de uma estratégia de construção ou proteção de patrimônio.',
-    explicacao: 'Este perfil aparece quando o cliente demonstra visão de médio e longo prazo, interesse em patrimônio, valorização, diversificação ou renda futura. A decisão deve considerar custo do dinheiro, liquidez, prazo, risco e objetivo patrimonial.',
+    fraseIdentificacao:
+      'Seu diagnóstico indica uma visão mais patrimonial: o imóvel aparece não apenas como moradia, mas como parte de uma estratégia de construção ou proteção de patrimônio.',
+    explicacao:
+      'Este perfil aparece quando o cliente demonstra visão de médio e longo prazo, interesse em patrimônio, valorização, diversificação ou renda futura. A decisão deve considerar custo do dinheiro, liquidez, prazo, risco e objetivo patrimonial.',
     pontosFavoraveis: [
       'Você pensa em patrimônio e longo prazo',
       'Pode comparar diferentes formas de aquisição',
@@ -112,15 +130,19 @@ export const PROFILES: ProfileResult[] = [
       'Custo de oportunidade importa',
       'Estratégia patrimonial exige análise de risco e horizonte de tempo',
     ],
-    proximoPasso: 'O próximo passo recomendado é montar uma análise patrimonial considerando objetivo, prazo, capital disponível, renda, risco, liquidez e tipo de imóvel desejado.',
-    cta: 'Montar minha estratégia patrimonial',
-    ctaMensagem: 'Olá! Acabei de fazer o Diagnóstico de Compra Imobiliária Inteligente. Meu perfil foi: Investidor Patrimonial. Quero entender, com calma, qual seria o próximo passo mais adequado para minha realidade.',
+    proximoPasso:
+      'O próximo passo recomendado é montar uma análise patrimonial considerando objetivo, prazo, capital disponível, renda, risco, liquidez e tipo de imóvel desejado.',
+    cta: 'Quero avaliar minha estratégia patrimonial',
+    ctaMensagem:
+      'Olá! Acabei de fazer o Diagnóstico Imobiliário Inteligente. Meu perfil foi Investidor Patrimonial e recebi uma estimativa inicial de compra. Quero avaliar com um especialista qual estratégia faz mais sentido para construir patrimônio com inteligência, considerando crédito, consórcio, prazo, liquidez e objetivo de longo prazo.',
   },
   {
     id: 'emocional',
     nome: 'Compra Emocional de Risco',
-    fraseIdentificacao: 'Seu diagnóstico indica um desejo forte de comprar, mas também alguns sinais de atenção que merecem ser avaliados antes de qualquer compromisso.',
-    explicacao: 'Este perfil aparece quando existe urgência alta, pressão emocional, pouca clareza financeira, entrada insuficiente ou risco de tomar uma decisão apenas para resolver uma dor imediata. Não é um julgamento; é um alerta de proteção.',
+    fraseIdentificacao:
+      'Seu diagnóstico indica um desejo forte de comprar, mas também alguns sinais de atenção que merecem ser avaliados antes de qualquer compromisso.',
+    explicacao:
+      'Este perfil aparece quando existe urgência alta, pressão emocional, pouca clareza financeira, entrada insuficiente ou risco de tomar uma decisão apenas para resolver uma dor imediata. Não é um julgamento; é um alerta de proteção.',
     pontosFavoraveis: [
       'Você tem motivação real para conquistar o imóvel',
       'Está disposto a agir e buscar uma solução',
@@ -135,8 +157,10 @@ export const PROFILES: ProfileResult[] = [
       'Comprar sob pressão pode gerar arrependimento',
       'É importante comparar possibilidades antes de decidir',
     ],
-    proximoPasso: 'O próximo passo recomendado é fazer uma análise segura antes de escolher financiamento, consórcio ou qualquer compromisso de compra.',
-    cta: 'Fazer uma análise segura antes de decidir',
-    ctaMensagem: 'Olá! Acabei de fazer o Diagnóstico de Compra Imobiliária Inteligente. Meu perfil foi: Compra Emocional de Risco. Quero entender, com calma, qual seria o próximo passo mais adequado para minha realidade.',
+    proximoPasso:
+      'O próximo passo recomendado é fazer uma análise segura antes de escolher financiamento, consórcio ou qualquer compromisso de compra.',
+    cta: 'Quero decidir com mais segurança',
+    ctaMensagem:
+      'Olá! Acabei de fazer o Diagnóstico Imobiliário Inteligente. Meu perfil foi Compra Emocional de Risco e recebi uma estimativa inicial de compra. Quero conversar com um especialista para entender meu cenário com calma, evitar uma decisão impulsiva e descobrir qual caminho seria mais seguro para minha realidade.',
   },
 ];

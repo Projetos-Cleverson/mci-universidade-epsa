@@ -356,14 +356,14 @@ Resumo da minha estimativa orientativa:
                   </div>
 
                   <div className="flex items-center justify-between gap-4 border-b border-slate-200 pb-2">
-                    <span className="text-slate-500">Taxa adm. estimada</span>
+                    <span className="text-slate-500">Taxa adm. referencial</span>
                     <strong className="text-right text-slate-950">
                       {(simulation.consortium.adminFeeRate * 100).toFixed(0)}%
                     </strong>
                   </div>
 
                   <div className="flex items-center justify-between gap-4 border-b border-slate-200 pb-2">
-                    <span className="text-slate-500">Fundo estimado</span>
+                    <span className="text-slate-500">Fundo referencial</span>
                     <strong className="text-right text-slate-950">
                       {(simulation.consortium.reserveFundRate * 100).toFixed(0)}%
                     </strong>
