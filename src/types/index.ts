@@ -1,0 +1,92 @@
+export type ProfileType =
+  | 'financiamento'
+  | 'consorcio'
+  | 'hibrida'
+  | 'reorganizacao'
+  | 'investidor'
+  | 'emocional';
+
+export interface QuizAnswer {
+  questionIndex: number;
+  answerIndex: number;
+}
+
+export interface ProfileScores {
+  financiamento: number;
+  consorcio: number;
+  hibrida: number;
+  reorganizacao: number;
+  investidor: number;
+  emocional: number;
+}
+
+export interface LeadData {
+  nome: string;
+  whatsapp: string;
+  cidade: string;
+  estado: string;
+  email?: string;
+  horarioContato?: string;
+  aceiteContato: boolean;
+}
+
+export type LeadTemperature = 'morno' | 'quente' | 'nutricao' | 'premium' | 'risco';
+
+export interface Lead {
+  id: string;
+  dados: LeadData;
+  respostas: QuizAnswer[];
+  scores: ProfileScores;
+  perfilPrincipal: ProfileType;
+  perfilSecundario?: ProfileType;
+  origem: string;
+  parceiro?: string;
+  temperatura: LeadTemperature;
+  status: string;
+  responsavel?: string;
+  tags: string[];
+  observacoes: string;
+  proximaAcao?: string;
+  historico: HistoricoItem[];
+  dataEntrada: string;
+  faixaImovel?: string;
+  faixaRenda?: string;
+  entradaDisponivel?: string;
+  urgencia?: string;
+  objetivo?: string;
+  produtoRecomendado?: string;
+}
+
+
+export interface HistoricoItem {
+  data: string;
+  acao: string;
+  responsavel?: string;
+}
+
+export interface Partner {
+  id: string;
+  nome: string;
+  tipo: string;
+  responsavel: string;
+  whatsapp: string;
+  email: string;
+  cidade: string;
+  estado: string;
+  comissaoPadrao: number;
+  codigoOrigem: string;
+  status: 'ativo' | 'inativo';
+  observacoes: string;
+}
+
+export interface ProfileResult {
+  id: ProfileType;
+  nome: string;
+  fraseIdentificacao: string;
+  explicacao: string;
+  pontosFavoraveis: string[];
+  pontosAtencao: string[];
+  proximoPasso: string;
+  cta: string;
+  ctaMensagem: string;
+}
