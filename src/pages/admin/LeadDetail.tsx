@@ -15,6 +15,7 @@ import {
   Calendar,
   Tag,
   MessageCircle,
+  FileText,
 } from 'lucide-react';
 import { useState } from 'react';
 
@@ -279,6 +280,14 @@ export default function AdminLeadDetail() {
               )}
             </div>
           </div>
+
+          <button
+          onClick={() => navigate(`/admin/leads/${lead.id}/relatorio`)}
+          className="flex w-full items-center justify-center gap-2 rounded-lg bg-[var(--deep-blue)] px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-[var(--navy)]"
+          >
+          <FileText className="size-4" />
+          Gerar relatório
+          </button>
 
           {/* WhatsApp */}
           <a

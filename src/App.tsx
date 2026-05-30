@@ -13,6 +13,7 @@ const AdminLeadDetail = lazy(() => import('@/pages/admin/LeadDetail'));
 const AdminKanban = lazy(() => import('@/pages/admin/Kanban'));
 const AdminPartners = lazy(() => import('@/pages/admin/Partners'));
 const AdminReports = lazy(() => import('@/pages/admin/Reports'));
+const AdminLeadReport = lazy(() => import('@/pages/admin/LeadReport'));
 
 function LoadingScreen() {
   return (
@@ -38,9 +39,11 @@ export default function App() {
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/admin/leads" element={<AdminLeads />} />
           <Route path="/admin/leads/:id" element={<AdminLeadDetail />} />
+          <Route path="/admin/leads/:id/relatorio" element={<AdminLeadReport />} />
           <Route path="/admin/kanban" element={<AdminKanban />} />
           <Route path="/admin/parceiros" element={<AdminPartners />} />
           <Route path="/admin/relatorios" element={<AdminReports />} />
+          
         </Routes>
       </Suspense>
       <Toaster />

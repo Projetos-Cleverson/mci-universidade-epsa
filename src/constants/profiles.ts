@@ -78,7 +78,7 @@ export const PROFILES: ProfileResult[] = [
     ],
     proximoPasso:
       'O próximo passo recomendado é comparar cenários para entender qual combinação faz mais sentido para sua renda, entrada, urgência e objetivo.',
-    cta: 'Quero comparar financiamento e consórcio',
+    cta: 'Recomendação consultiva',
     ctaMensagem:
       'Olá! Acabei de fazer o Diagnóstico Imobiliário Inteligente. Meu perfil foi Estratégia Híbrida e recebi uma estimativa inicial comparando financiamento e consórcio. Quero entender com um especialista qual caminho vale mais a pena para minha realidade: financiar, fazer consórcio, combinar estratégias ou ajustar meu plano.',
   },
